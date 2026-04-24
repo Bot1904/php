@@ -24,3 +24,40 @@ foreach( $pole as $cap)
     {
         echo "$cap\n";
     }
+
+
+$kys = "matyas";
+$UMA = ["Oguri", "special week", "Golden City", "Verxina", "Nice Nature"];
+foreach ($UMA as $mambo)
+    {
+        echo "$mambo \n";
+    }
+$Satella = [1, 40, 67, 86, 77, 63 , 54, 17, 47];
+$sedum = 0;
+for($i = 1; $i < count($Satella); $i++)
+    {
+        if ($Satella[$i] % 10 == 7)
+            $sedum++;
+        echo("$Satella[$i]\n");
+        
+
+    }
+echo "$sedum";
+for($i = 0; $i < count($Satella); $i++)
+    {
+        if($Satella[$i] > 55)
+            {
+                echo "$Satella[$i]" . ",\n";
+            }
+    }
+
+for($i = 0; $i < count($Satella); $i++)
+    {
+        if($Satella[$i] % 2 == 0)
+            echo " suda $Satella[$i], ";
+    }
+for($i = 0; $i < count($Satella); $i++)
+    {
+        if($Satella[$i] % 2 == 1)
+            echo " licha $Satella[$i], ";
+    }
